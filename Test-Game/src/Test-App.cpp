@@ -16,5 +16,9 @@ public:
 
 ROT::Application* ROT::CreateApplication() 
 {
+	Logger& logger = Logger::getInstance();
+
+	logger.log("Starting ROT");
+
 	return new Test_App();
 }
