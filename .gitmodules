@@ -1,3 +1,0 @@
-[submodule "ROT-Engine/external/fmt"]
-	path = ROT-Engine/external/fmt
-	url = git@github.com:fmtlib/fmt.git
